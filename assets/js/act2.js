@@ -32,12 +32,15 @@ var data = {
     'guitar': {"file": 'guitar.mp4', 'cat': 'music', 'text': 'Guitare'},
     'guitare': {"file": 'guitare.mp4', 'cat': 'music', 'text': 'Guitare 2'},
     'piano': {"file": 'piano.mp4', 'cat': 'music', 'text': 'Piano'},
-    'symbale': {"file": 'symbale.mp4', 'cat': 'music', 'text': 'Symbale'},
+    'cymbale': {"file": 'cymbale.mp4', 'cat': 'music', 'text': 'Cymbale'},
     'tuba': {"file": 'tuba.mp4', 'cat': 'music', 'text': 'Tuba'},
 
     'pure': {"file": 'note_pure.mp4', 'cat': 'misc', 'text': 'Note pure'},
     'modulation': {"file": 'modulation.mp4', 'cat': 'misc', 'text': 'Modulation'},
     'voix': {"file": 'voix.mp4', 'cat': 'misc', 'text': 'Voix'},
+    'f1': {"file": 'f1.mp4', 'cat': 'misc', 'text': 'Formule 1'},
+    'dopplerf1': {"file": 'dopplerf1.mp4', 'cat': 'misc', 'text': 'Doppler formule 1'},
+    'wind': {"file": 'wind.mp4', 'cat': 'misc', 'text': 'Vent'},
 };
 
 for (var key in data) {
