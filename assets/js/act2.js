@@ -11,9 +11,33 @@ function play_fn (key) {
 
 var data = {
     'wolf': {"file": 'wolf.mp4', 'cat': 'animals', 'text': 'Loup'},
+    'bee': {"file": 'bee.mp4', 'cat': 'animals', 'text': 'Abeille'},
     'dolphin': {"file": 'dolphin.mp4', 'cat': 'animals', 'text': 'Dauphin (x0.5)'},
+    'coucou': {"file": 'coucou.mp4', 'cat': 'animals', 'text': 'Coucou'},
+    'merle': {"file": 'merle.mp4', 'cat': 'animals', 'text': 'Merle'},
+    'morse': {"file": 'morse.mp4', 'cat': 'animals', 'text': 'Morse'},
+    'vache': {"file": 'vache.mp4', 'cat': 'animals', 'text': 'Vache'},
+
+    'accordeon': {"file": 'accordeon.mp4', 'cat': 'music', 'text': 'Accordeon'},
+    'alto': {"file": 'alto.mp4', 'cat': 'music', 'text': 'Alto'},
     'bell': {"file": 'bell.mp4', 'cat': 'music', 'text': 'Cloche'},
+    'cloche': {"file": 'cloche.mp4', 'cat': 'music', 'text': 'Cloches'},
+    'castagnette': {"file": 'castagnette.mp4', 'cat': 'music', 'text': 'Castagnette'},
+    'chant': {"file": 'chant.mp4', 'cat': 'music', 'text': 'Chant'},
+    'chant2': {"file": 'chant2.mp4', 'cat': 'music', 'text': 'Chant 2'},
+    'clarinette': {"file": 'clarinette.mp4', 'cat': 'music', 'text': 'Clarinette'},
+    'claves': {"file": 'claves.mp4', 'cat': 'music', 'text': 'Claves'},
+    'voix': {"file": 'voix.mp4', 'cat': 'music', 'text': 'Voix'},
+    'glockenspiel': {"file": 'glockenspiel.mp4', 'cat': 'music', 'text': 'Glockenspiel'},
     'guitar': {"file": 'guitar.mp4', 'cat': 'music', 'text': 'Guitare'},
+    'guitare': {"file": 'guitare.mp4', 'cat': 'music', 'text': 'Guitare 2'},
+    'piano': {"file": 'piano.mp4', 'cat': 'music', 'text': 'Piano'},
+    'symbale': {"file": 'symbale.mp4', 'cat': 'music', 'text': 'Symbale'},
+    'tuba': {"file": 'tuba.mp4', 'cat': 'music', 'text': 'Tuba'},
+
+    'pure': {"file": 'note_pure.mp4', 'cat': 'misc', 'text': 'Note pure'},
+    'modulation': {"file": 'modulation.mp4', 'cat': 'misc', 'text': 'Modulation'},
+    'voix': {"file": 'voix.mp4', 'cat': 'misc', 'text': 'Voix'},
 };
 
 for (var key in data) {
