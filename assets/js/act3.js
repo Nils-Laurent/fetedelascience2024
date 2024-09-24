@@ -21,9 +21,10 @@ img_vec = [];
 for (var key in data) {
     var value = data[key];
     img = document.createElement("img");
-    img.className = "card-img-top rounded-3 object-fit-cover";
+    //img.className = "card-img-top rounded-3 object-fit-cover";
+    img.className = "rounded-3 object-fit-cover";
     img.id=key;
-    img.height="200";
+    img.height="265";
     img.role="button";
     img.onclick=click_fn;
     img.src="./assets/img/" + data[key]['img'];
