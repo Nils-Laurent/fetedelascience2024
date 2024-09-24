@@ -8,8 +8,10 @@ function play_audio () {
 }
 
 var data = {
-    'wolf': {'img': 'wolf.jpg', 'audio': "wolf_howl.mp3"},
-    'dolphin': {'img': 'dolphin.jpg', 'audio': "dolphin.wav"},
+    'vache': {'img': 'vache.png', 'audio': "vache.mp3"},
+    'clarinette': {'img': 'clarinette.png', 'audio': "clarinette.mp3"},
+    'f1': {'img': 'f1.png', 'audio': "f1.mp3"},
+    'cymbale': {'img': 'cymbale.png', 'audio': "cymbale.mp3"},
 };
 
 container = document.getElementById('img_container');
