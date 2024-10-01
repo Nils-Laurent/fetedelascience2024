@@ -41,7 +41,9 @@ var data = {
     //'f1': {"file": 'f1.mp4', 'cat': 'misc', 'text': 'Formule 1'},
     'dopplerf1': {"file": 'dopplerf1.mp4', 'cat': 'misc', 'text': 'Doppler formule 1'},
     'wind': {"file": 'wind.mp4', 'cat': 'misc', 'text': 'Vent'},
-    'metiss': {"file": 'metiss_logo.mp4', 'cat': 'misc', 'text': 'METISS'}
+    'metiss': {"file": 'metiss_logo.mp4', 'cat': 'misc', 'text': 'METISS'},
+    'ambulance': {"file": 'ambulance.mp4', 'cat': 'misc', 'text': 'Sirène ambulance'},
+    'ambulance2': {"file": 'ambulance2.mp4', 'cat': 'misc', 'text': 'Sirènes'},
 };
 
 for (var key in data) {
